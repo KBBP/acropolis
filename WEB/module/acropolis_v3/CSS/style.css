@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 body {
-    font-family: 'Inter', sans-serif;
     padding: 12px 140px;
     background-color: #F4ECD0;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -14,14 +19,15 @@ body {
     font-weight: 600;
     font-size: 20px;
 }
+
 .header-logo a {
     text-decoration: none;
     color: #121212;
 }
 
-.header-list ul{
+.header-list ul {
     list-style: none;
-    
+
 }
 
 .header-list li {
@@ -34,10 +40,12 @@ body {
 .active {
     color: black;
 }
-.header-list ul a{
+
+.header-list ul a {
     text-decoration: none;
     color: #a1a1a1;
 }
+
 .header-list ul li a {
     color: #a1a1a1;
     transition: 0.3s ease-in-out;
@@ -46,29 +54,36 @@ body {
 .header-list ul li a:hover {
     color: black;
 }
-.header-right a{
+
+.header-right a {
     color: #3C3C3C;
     text-decoration: none;
 }
+
 .contents {
     padding-top: 70px;
-    text-align: center; 
+    text-align: center;
     margin-bottom: 100px;
 }
+
 .contents h2 {
     font-size: 36px;
     color: #202020;
 }
+
 .contents p {
     font-size: 20px;
 }
-.button{
+
+.button {
     text-align: center;
 }
+
 .button a {
     text-decoration: none;
     color: #202020;
 }
+
 .button:hover {
     padding-top: 10px;
     transition: all 0.5s;
