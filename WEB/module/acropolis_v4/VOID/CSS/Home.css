@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 body {
-    font-family: 'Inter', sans-serif;
     padding: 12px 140px;
     background-color: #1E252B;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -62,14 +67,13 @@ body {
 }
 .contents h1 {
     font-size: 48px;
-    font-family: Poppins;
 }
 .contents h1 span{
     color: #FDAB6F;
 }
 .contents p {
     color: #a1a1a1;
-    font-size: 22px;
+    font-size: 18px;
     padding-bottom: 34px;
     padding-top: 20px;
 }
