@@ -1,32 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-body{
+*{
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
-    background-color: #1E252B;
+}
+.container{
+    width: 100%;
     height: 100vh;
-    overflow: hidden;
-
+    font-family: "Poppins", sans-serif;
+    background:#1E252B;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.center{
+.card {
+    width: 350px;
+    height: 450px;
+    box-shadow: 0 0 40px 20px #FDAB6F;
+    perspective: 1000px;
+}
+.inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(-180deg);
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+.card-front, .card-back{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    border: 1px solid #fdab6f;
-    border-radius: 10px;
-}
-.center h1{
-    text-align: center;
-    padding: 0 0 20px 0;
-    color: #fdab6f;
-    
-}
-.center form{
-    padding: 0 40px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #1E252B;
+    padding: 55px;
+    backface-visibility: hidden;
     box-sizing: border-box;
-
+}
+.card-back{
+    transform: rotateY(180deg);
 }
 form .txt_field{
     position: relative;
@@ -42,6 +54,7 @@ form .txt_field{
     border: none;
     background: none;
     outline: none;
+
 }
 .txt_field label{
     position: absolute;
@@ -62,18 +75,18 @@ form .txt_field{
     height: 2px;
     background-color: #fdab6f;
 }
-.txt_field~{
-    color: #fff;
-}
 .txt_field input:focus ~ label,
 .txt_field input:valid ~ label{
     top: -5px;
-    color: #fff;
+    color: #fdab6f;
 
 }
 .txt_field input:focus ~ span::before,
 .txt_field input:valid ~ span::before{
     width: 100%;
+}
+.txt_field input:focus ~ span:hover,
+.txt_field input:valid ~ span:hover{
     color: #fff;
 }
 .forgot{
@@ -115,4 +128,18 @@ input[type="submit"]:hover{
 }
 .signup a:hover{
     text-decoration: underline;
+}
+button{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fdab6f;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: #FDAB6F;
+    cursor: pointer;
 }
