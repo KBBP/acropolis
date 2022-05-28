@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                    <h2>Login</h2>
+                    <form method="post">
+                        <div class="txt_field">
+                            <input type="text" required style="color: #fff;">
+                            <label> Username</label>
+                        </div>
+                    </form>
+                    <form method="post">
+                        <div class="txt_field">
+                            <input type="password" required style="color: #fff;">
+                            <label> Password</label>
+                        </div>
+                        <div class="forgot">Forgot Password?</div>
+                        <input type="submit" value="Login">
+                        <div class="signup">
+                            <button type="button" class="btn" onclick="openRegister()">I'm new here</button>
+                        </div>
+                    </form>
+                    
+                </div>
+                <div class="card-back">
+                    <h2>Register</h2>
+                    <form method="post">
+                        <div class="txt_field">
+                            <input type="text" required style="color: #fff;">
+                            <label>Username</label>
+                        </div>
+                    </form>
+                    <form method="post">
+                        <div class="txt_field">
+                            <input type="text" required style="color: #fff;">
+                            <label>Email</label>
+                        </div>
+                    </form>
+                    <form method="post">
+                        <div class="txt_field">
+                            <input type="password" required style="color: #fff;">
+                            <label>Password</label>
+                        </div>
+                        <input type="submit" value="Register">
+                    </form>
+                    <button type="button" class="btn" onclick="openLogin()">I've an account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var card = document.getElementById("card");
+        function openRegister(){
+            card.style.transform="rotateY(-180deg)"
+        }
+        function openLogin(){
+            card.style.transform="rotateY(0deg)"
+        }
+    </script>
+</body>
+</html>
