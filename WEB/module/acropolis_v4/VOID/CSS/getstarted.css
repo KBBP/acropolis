@@ -42,7 +42,6 @@ form .txt_field{
     border: none;
     background: none;
     outline: none;
-
 }
 .txt_field label{
     position: absolute;
@@ -63,15 +62,19 @@ form .txt_field{
     height: 2px;
     background-color: #fdab6f;
 }
+.txt_field~label{
+    color: #fff;
+}
 .txt_field input:focus ~ label,
 .txt_field input:valid ~ label{
     top: -5px;
-    color: #fdab6f;
+    color: #fff;
 
 }
 .txt_field input:focus ~ span::before,
 .txt_field input:valid ~ span::before{
     width: 100%;
+    color: #fff;
 }
 .forgot{
     margin: -5px 0 20px 5px;
