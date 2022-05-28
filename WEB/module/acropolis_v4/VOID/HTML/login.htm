@@ -8,64 +8,72 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="inner-box" id="card">
-                <div class="card-front">
-                    <h2>Login</h2>
-                    <form method="post">
-                        <div class="txt_field">
-                            <input type="text" required style="color: #fff;">
-                            <label> Username</label>
-                        </div>
-                    </form>
-                    <form method="post">
-                        <div class="txt_field">
-                            <input type="password" required style="color: #fff;">
-                            <label> Password</label>
-                        </div>
-                        <div class="forgot">Forgot Password?</div>
-                        <input type="submit" value="Login">
-                        <div class="signup">
-                            <button type="button" class="btn" onclick="openRegister()">I'm new here</button>
-                        </div>
-                    </form>
-                    
-                </div>
-                <div class="card-back">
-                    <h2>Register</h2>
-                    <form method="post">
-                        <div class="txt_field">
-                            <input type="text" required style="color: #fff;">
-                            <label>Username</label>
-                        </div>
-                    </form>
-                    <form method="post">
-                        <div class="txt_field">
-                            <input type="text" required style="color: #fff;">
-                            <label>Email</label>
-                        </div>
-                    </form>
-                    <form method="post">
-                        <div class="txt_field">
-                            <input type="password" required style="color: #fff;">
-                            <label>Password</label>
-                        </div>
-                        <input type="submit" value="Register">
-                    </form>
-                    <button type="button" class="btn" onclick="openLogin()">I've an account</button>
-                </div>
+<div class="container">
+    <div class="card">
+        <div class="inner-box" id="card">
+            <div class="card-front">
+                <h2>Login</h2>
+                <form method="post">
+                    <div class="txt_field">
+                        <input type="text" required style="color: #fff;">
+                        <label> Username</label>
+                    </div>
+                </form>
+                <form method="post">
+                    <div class="txt_field">
+                        <input type="password" required style="color: #fff;">
+                        <label> Password</label>
+                    </div>
+                    <div class="forgot">Forgot Password?</div>
+                    <input type="submit" value="Login">
+                    <div class="signup">
+                        <button type="button" class="btn" onclick="openRegister()">I'm new here</button>
+                    </div>
+                    <div class="back">
+                        <p><a href="home.htm">Back to Home</a></p>
+                    </div>
+                </form>
+
+            </div>
+            <div class="card-back">
+                <h2>Register</h2>
+                <form method="post">
+                    <div class="txt_field">
+                        <input type="text" required style="color: #fff;">
+                        <label>Username</label>
+                    </div>
+                </form>
+                <form method="post">
+                    <div class="txt_field">
+                        <input type="text" required style="color: #fff;">
+                        <label>Email</label>
+                    </div>
+                </form>
+                <form method="post">
+                    <div class="txt_field">
+                        <input type="password" required style="color: #fff;">
+                        <label>Password</label>
+                    </div>
+                    <input type="submit" value="Register">
+                    <div class="back">
+                        <p><a href="home.htm">Back to Home</a></p>
+                    </div>
+                </form>
+                <button type="button" class="btn" onclick="openLogin()">I've an account</button>
             </div>
         </div>
     </div>
-    <script>
-        var card = document.getElementById("card");
-        function openRegister(){
-            card.style.transform="rotateY(-180deg)"
-        }
-        function openLogin(){
-            card.style.transform="rotateY(0deg)"
-        }
-    </script>
+</div>
+<script>
+    var card = document.getElementById("card");
+
+    function openRegister() {
+        card.style.transform = "rotateY(-180deg)"
+    }
+
+    function openLogin() {
+        card.style.transform = "rotateY(0deg)"
+    }
+</script>
 </body>
 </html>
