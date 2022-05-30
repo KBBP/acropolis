@@ -101,9 +101,10 @@ button{
 .features h4{
     border: 1px solid rgba(225, 201, 255, 1);
     padding: 12px 0;
+    font-weight: 600;
     background-color: rgba(225, 201, 255, 1);
-    border-radius: 12px;
-    margin: 0 45% 42px;
+    border-radius: 10px;
+    margin: 0 46% 32px;
     color: #874CE7;
 }
 
@@ -113,14 +114,14 @@ button{
     font-weight: 800;
     letter-spacing: 0.01em;
     color: #2A2D4A;
-    margin-bottom: 52px;
+    margin-bottom: 32px;
 }
 
 .card{
     display: flex;
     justify-content: space-around;
     padding-left: 72px;
-    padding-top: 48px;
+    padding-top: 32px;
     
 }
 .card img{
