@@ -61,7 +61,7 @@ button{
     text-align: center;
     color: #fff;
     height: 600px;
-    margin: 0 50px 25%;
+    margin: 0 50px 22%;
 }
 .content h2{
     padding-bottom: 1.15%;
@@ -100,13 +100,13 @@ button{
 }
 .features h3{
     border: 1px solid rgba(225, 201, 255, 1);
-    padding: 10px 0;
+    padding: 12px 0;
     background-color: rgba(225, 201, 255, 1);
     border-radius: 12px;
-    margin: 0 45% 48px;
+    margin: 0 45% 42px;
     color: #874CE7;
-
 }
+
 .features h1{
     font-size: 42px;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -118,11 +118,15 @@ button{
 
 .card{
     display: flex;
-    padding-left: 60px;
-    padding-top: 82px;
+    justify-content: space-around;
+    padding-left: 72px;
+    padding-top: 48px;
     
 }
 .card img{
-    margin-right: 20%;
-    margin-bottom: 82px;
+    border-radius: 16px;
+    padding: 52px 42px;
+    background-color: #FBFBFB;
+    margin-right: 3%;
+    margin-bottom: 60px;
 }
