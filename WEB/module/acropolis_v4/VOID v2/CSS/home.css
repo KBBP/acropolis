@@ -97,6 +97,7 @@ button{
 }
 .features{
     text-align: center;
+    padding: 40px 0;
 }
 .features h3{
     margin: 0 45%;
@@ -104,7 +105,7 @@ button{
     padding: 10px 0;
     background-color: rgba(225, 201, 255, 1);
     border-radius: 12px;
-    margin-bottom: 44px;
+    margin-bottom: 50px;
     color: #874CE7;
 
 }
@@ -114,4 +115,16 @@ button{
     font-weight: 800px;
     letter-spacing: 0.01em;
     color: #2A2D4A;
+    margin-bottom: 52px;
+}
+
+.card{
+    display: flex;
+    padding-left: 60px;
+    padding-top: 82px;
+    
+}
+.card img{
+    margin-right: 20%;
+    margin-bottom: 82px;
 }
