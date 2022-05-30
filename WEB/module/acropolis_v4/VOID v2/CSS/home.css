@@ -92,3 +92,6 @@ button{
     background: linear-gradient(265.12deg, #242749 0%, #393F75 100%);
     padding: 16px 20px;
 }
+.search-bar button a{
+    color: #fff;
+}
