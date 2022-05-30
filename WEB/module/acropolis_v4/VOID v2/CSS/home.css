@@ -86,6 +86,7 @@ button{
     border: 1px solid #fff;
     padding: 24px 16px;
     margin-right: 12px;
+    outline: none;
 }
 .search-bar button{
     background: linear-gradient(265.12deg, #242749 0%, #393F75 100%);
