@@ -44,7 +44,7 @@ button{
 }
 .content{
     background: linear-gradient(260.15deg, #5B8AD1 0%, rgba(140, 70, 230, 0.73) 48.07%, #4EF0D3 100%);
-    border-radius: 36wpx;
+    border-radius: 36px;
     padding: 20px;
     text-align: center;
     color: #fff;
