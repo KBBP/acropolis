@@ -1,22 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-*{
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-header{
-    margin-bottom: 32px;
-}
-ul{
-    list-style: none;
-}
-a {
-    text-decoration: none;
-    color: #9093AE; 
+
+::-moz-selection { /* Code for Firefox */
+    background: #874CE7;
 }
 
-nav{
+::selection {
+    background: #874CE7;
+}
+
+header {
+    margin-bottom: 32px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #9093AE;
+}
+
+nav {
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -24,7 +40,8 @@ nav{
     padding-left: 5%;
     padding-right: 5%;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     padding: 10px 20px;
     transition: 0.3s;
@@ -36,25 +53,51 @@ nav ul li a:hover {
 }
 
 .active {
-    color: #202124;
+    font-weight: 500;
+    color: #4C5BE7;
 }
 
 .right a{
-    padding-right: 10px;
+    padding-right: 32px;
     color: #4C5BE7;
+    font-weight: 500;
+    font-size: 16px;
 }
-button{
+
+button {
     border: none;
     background: #4C5BE7;
-    border-radius: 10px;
-    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 32px;
     color: #fff;
     cursor: pointer;
 }
-.title{
+
+.no-bg {
+    color: #4C5BE7;
+    background-color: white;
+}
+
+.sign-in {
+    /*border: 2px solid #4C5BE7;*/
+    margin-right: 16px;
+    background-color: white;
+    transition: 0.35s ease-in-out;
+}
+
+.sign-in:hover {
+    color: white;
+    background: #4C5BE7;
+    transition: 0.3s ease-out;
+}
+
+.title {
     color: #2A2D4A;
 }
-.content{
+
+.content {
     background: linear-gradient(260.15deg, #5B8AD1 0%, rgba(140, 70, 230, 0.73) 48.07%, #4EF0D3 100%);
     border-radius: 36px;
     padding: 48px 0;
@@ -63,12 +106,14 @@ button{
     height: 600px;
     margin: 0 50px 22%;
 }
-.content h2{
+
+.content h2 {
     padding-bottom: 1.15%;
     font-weight: 800;
     font-size: 36px;
     font-family: 'Plus Jakarta Sans', sans-serif;;
 }
+
 .content p {
     font-weight: 500;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -76,7 +121,8 @@ button{
     line-height: 32px;
     margin-bottom: 52px;
 }
-.search-bar input{
+
+.search-bar input {
     border-radius: 12px;
     width: 421px;
     height: 40px;
@@ -87,18 +133,22 @@ button{
     margin-right: 12px;
     outline: none;
 }
-.search-bar button{
+
+.search-bar button {
     background: linear-gradient(265.12deg, #242749 0%, #393F75 100%);
     padding: 16px 20px;
 }
-.search-bar button a{
+
+.search-bar button a {
     color: #fff;
 }
-.features{
+
+.features {
     text-align: center;
     padding: 20px 0;
 }
-.features h4{
+
+.features h4 {
     border: 1px solid rgba(225, 201, 255, 1);
     padding: 12px 0;
     font-weight: 600;
@@ -108,7 +158,7 @@ button{
     color: #874CE7;
 }
 
-.features h1{
+.features h1 {
     font-size: 42px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 800;
@@ -117,14 +167,15 @@ button{
     margin-bottom: 32px;
 }
 
-.card{
+.card {
     display: flex;
     justify-content: space-around;
     padding-left: 72px;
     padding-top: 32px;
-    
+
 }
-.card img{
+
+.card img {
     border-radius: 16px;
     padding: 52px 42px;
     background-color: #FBFBFB;
