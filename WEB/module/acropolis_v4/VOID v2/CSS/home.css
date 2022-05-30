@@ -45,7 +45,7 @@ button{
 .content{
     background: linear-gradient(260.15deg, #5B8AD1 0%, rgba(140, 70, 230, 0.73) 48.07%, #4EF0D3 100%);
     border-radius: 36px;
-    padding: 20px;
+    padding: 48px 0;
     text-align: center;
     color: #fff;
     margin: 0 50px;
@@ -53,27 +53,26 @@ button{
     
 }
 .content h2{
-    padding-bottom: 2%;
+    padding-bottom: 1.15%;
     font-weight: 800;
     font-size: 36px;
     font-family: 'Plus Jakarta Sans', sans-serif;;
 }
 .content p {
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 21px;
+    font-size: 16px;
     line-height: 32px;
     margin-bottom: 52px;
 }
 .search-bar input{
-    background: transparent;
     border-radius: 12px;
     width: 421px;
     height: 40px;
     font-size: 14px;
     background-color: #fff;
     border: 1px solid #fff;
-    padding-left: 10px;
+    padding: 24px 16px;
 }
 .search-bar button{
     background: linear-gradient(265.12deg, #242749 0%, #393F75 100%);
