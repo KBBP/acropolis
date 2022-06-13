@@ -44,7 +44,6 @@ p{
 #hero {
     display: flex;
 }
-
 .column {
     flex: 50%;
     padding: 10px;
@@ -83,6 +82,12 @@ p{
     color: #145AFF;
     font-weight:700px
 }
+#features{
+    display:flex;
+}
+#post{
+    display:flex;
+}
 .text1{
     padding-bottom: 20px;
 }
@@ -91,5 +96,3 @@ p{
     background-color:#202124;
     padding: 16px 24px;
 }
-
-
