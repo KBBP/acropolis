@@ -152,4 +152,23 @@ p {
     font-size: 36px;
 }
 
+.card {
+    display:flex;
+    flex-wrap: wrap;
+}
+.card-list{
+    width:400px;
+    height:160px;
+    margin-right:22px;
+    padding:76px 24px 24px 24px;
+    margin-bottom:24px;
+    border :1px solid #ccc;
+    border-radius:12px;
+}
+.card-list h4{
+    font-size: 28px
+}
+.card-list p{
+    font-size: 21px
+}
 
