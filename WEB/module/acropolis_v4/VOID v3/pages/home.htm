@@ -5,96 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/home.css">
-    <title>Teh Void</title>
+    <title>The Void</title>
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+            transition: 0.3s;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #F9F9F9;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #145AFF;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #202124;
+        }
+    </style>
 </head>
 <body>
-    <div id="container">
-        <div id="navbar">
-            <h3 class="logo">The Void</h3>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Post</a></li>
-            </ul>
-            <a href="#" class="btn-fill">Get Started</a>
+<div id="container">
+    <div id="navbar">
+        <h3 class="logo">The Void</h3>
+        <ul>
+            <li><a href="#features">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Post</a></li>
+        </ul>
+        <a href="#" class="btn-fill" style="font-size: 14px; padding: 14px 24px">Get Started</a>
+    </div>
+    <div id="hero">
+        <div class="column">
+            <h2>Find Something New,<br>
+                Seek Opportunity</h2>
+            <p>Never regret about something you don’t do in the past<br>
+                seek close opportunity around you.</p>
+            <div class="cta">
+                <a href="#" class="btn-fill">Start Free Trial</a>
+                <a href="#" class="btn-outline">See Documentation</a>
+            </div>
+            <p style="font-size: 16px;">No credit card required • Quick & easy sign up</p>
         </div>
-        <div id="hero">
-            <div class="column">
-                <h2>Find Something New,<br>
-                    Seek Opportunity</h2>
-                <p>Never regret about something you don’t do in the past<br>
-                    seek close opportunity around you.</p>
-                <div class="cta">
-                    <a href="#" class="btn-fill">Start Free Trial</a>
-                    <a href="#" class="btn-outline">See Documentation</a>
-                </div>
-                <p style="font-size: 16px;">No credit card required • Quick & easy sign up</p>
-            </div>
-            <div class="column">
-                <img src="../assets/Right Content.png" alt="Hero image">
-            </div>
-        </div>
-        <div id="features" style="margin: 80px 0">
-            <div class="colum">
-                <div style="width: 640px; height:480px; background:#D0E5F7; border-radius :24px; padding-left: 64px;"></div>
-            </div>
-            <div class="column">
-                <div class="content">
-                    <div class="text1">
-                        <p class="quote">SUPER COMMUNITY</p>
-                        <h2 style="letter-spacing: -1.15px;">Try to blend in to the community, <br>it’s a worth for the shot</h2>
-                        <p>The void provides you the best pre-work experience by giving you be a part of the community. Try to blend in and stand out to be the best part of yourself.</p>
-                        <a href="" class="btn-dis">Discover Community</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="features">
-            <div class="column">
-                <div class="content" style="padding: 24px 0">
-                    <div class="text1">
-                        <p class="quote" style="color: #FF1414">KEEP IN MIND</p>
-                        <h2>Take note, keep note, we got you</h2>
-                        <p>We have a motto that if you want something in your control, at least try to write something important by note.</p>
-<!--                        <a href="#" class="btn-dis">Discover Features</a>-->
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div style="width: 640px; height:480px; background: #F7D0D0; border-radius: 24px; float: right"></div>
-            </div>
-        </div>
-        <div id="post">
-            <h2>The process of your journey,<br>packed in <u>one single click.</u></h2>
-            <p>Designed to be efficient and effortless for everyone.<br>No technical. No complex UI.</p>
-        </div>
-        <div class="card">
-            <div class="card-list">
-                <h4>Efficient</h4>
-                <p>Improve your experience with more efficient and <br>waste no time.</p>
-            </div>
-            <div class="card-list">
-                <h4>Efficient</h4>
-                <p>Improve your experience with more efficient and <br>waste no time.</p>
-            </div>
-            <div class="card-list">
-                <h4>Efficient</h4>
-                <p>Improve your experience with more efficient and <br>waste no time.</p>
-            </div>
-            <div class="card-list">
-                <h4>Efficient</h4>
-                <p>Improve your experience with more efficient and <br>waste no time.</p>
-            </div>
-            <div class="card-list">
-                <h4>Efficient</h4>
-                <p>Improve your experience with more efficient and <br>waste no time.</p>
-            </div>
-            <div class="card-list">
-                <h4>Efficient</h4>
-                <p>Improve your experience with more efficient and <br>waste no time.</p>
-            </div>
-            
+        <div class="column">
+            <img src="../assets/Right Content.png" alt="Hero image">
         </div>
     </div>
+    <div id="features" style="margin: 80px 0">
+        <div class="colum">
+            <div style="width: 640px; height:480px; background:#D0E5F7; border-radius :24px; padding-left: 64px;" class="rotateLeft"></div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <div class="text1">
+                    <p class="quote">SUPER COMMUNITY</p>
+                    <h2 style="letter-spacing: -1.15px;">Try to blend in to the community, <br>it’s a worth for the shot
+                    </h2>
+                    <p>The void provides you the best pre-work experience by giving you be a part of the community. Try
+                        to blend in and stand out to be the best part of yourself.</p>
+                    <!--                        <a href="" class="btn-dis" style="margin-top: 24px">Discover Community</a>-->
+                    <button class="btn-dis"><a href="#" style="font-size: 16px">Discover Community</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="features">
+        <div class="column">
+            <div class="content" style="padding: 24px 0">
+                <div class="text1">
+                    <p class="quote" style="color: #FF1414">KEEP IN MIND</p>
+                    <h2>Take note, keep note, we got you</h2>
+                    <p>We have a motto that if you want something in your control, at least try to write something
+                        important by note.</p>
+                    <!--                        <a href="#" class="btn-dis">Discover Features</a>-->
+                    <button class="btn-dis"><a href="#" style="font-size: 16px">Discover Features</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div style="width: 640px; height:480px; background: #F7D0D0; border-radius: 24px; float: right" class="rotateRight"></div>
+        </div>
+    </div>
+    <div id="post">
+        <h2>The process of your journey,<br>packed in <u>one single click.</u></h2>
+        <p>Designed to be efficient and effortless for everyone.<br>No technical. No complex UI.</p>
+    </div>
+    <div class="card">
+        <div class="card-list">
+            <h4>Efficient</h4>
+            <p>Improve your experience with more efficient and <br>waste no time.</p>
+        </div>
+        <div class="card-list">
+            <h4>Agile</h4>
+            <p>We believe by increase app performance, your work<br> will be fast worked.</p>
+        </div>
+        <div class="card-list">
+            <h4>Neat UI</h4>
+            <p>No more untidy UI, it’s time to see neat and clean <br>fresh looks UI for your experience.</p>
+        </div>
+        <div class="card-list">
+            <h4>Functional</h4>
+            <p>By prioritizing functionality of our app, we believe<br> no more time to waste.</p>
+        </div>
+        <div class="card-list">
+            <h4>Team Approve</h4>
+            <p>Improve your experience with more efficient and <br>waste no time.</p>
+        </div>
+        <div class="card-list">
+            <h4>All in One</h4>
+            <p>All your needs packed in one app.</p>
+        </div>
+    </div>
+</div>
+<button class="back-to-top"><a href="#navbar" style="color: #202124;font-size: 14px; padding: 8px 12px">Back to Top</a>
+</button>
+<script src="../js/univscript.js"></script>
 </body>
 </html>

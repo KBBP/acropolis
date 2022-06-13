@@ -1,58 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,500&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
-    padding: 0;
     margin: 0;
-    /*border: 1px solid black;*/
-    text-decoration: none;
+    padding: 0;
     list-style: none;
+    text-decoration: none;
+    /*border: 1px solid black;*/
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 a {
+    color: #ffffff;
     font-size: 18px;
-    color: #202124;
 }
 
 h2 {
-    font-size: 52px;
     margin: 14px 0;
+    font-size: 52px;
 }
 
 p {
-    font-size: 20px;
-    color: #86898F;
     margin: 8px 0;
+    color: #86898F;
+    font-size: 20px;
+}
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+.hidden{
+    display: none;
+    transition: 0.8s;
+}
+#progress-bar {
+    height: 1rem;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
+/*USER CSS*/
 #container {
     padding: 36px 240px;
 }
 
 #navbar {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 72px;
+    justify-content: space-between;
 }
-
 #navbar ul li {
-    display: inline-block;
     margin: 0 10px;
+    display: inline-block;
 }
-
 #navbar ul {
     margin: auto;
 }
-
 #navbar ul li a {
     color: #67686b;
     font-size: 16px;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 #navbar ul li a:hover {
     color: #145AFF;
-    transition: 0.1s;
 }
 
 .logo {
@@ -71,8 +88,8 @@ p {
 
 #hero img {
     width: 600px;
-    height: 450px;
     float: right;
+    height: 450px;
 }
 
 .cta {
@@ -80,46 +97,50 @@ p {
 }
 
 .btn-fill {
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
     font-size: 16px;
+    border-radius: 8px;
+    padding: 16px 24px;
     background: #145AFF;
-    color: #fff;
-    padding: 16px 24px;
-    border-radius: 8px;
 }
-
+.btn-fill:hover{
+    box-shadow: 0px 4px 4px rgba(20, 90, 255, 0.1);
+}
 .btn-dis {
-    color: #fff;
-    background-color: #202124;
-    padding: 16px 24px;
-    border-radius: 8px;
-    position: absolute;
-    margin-top: 24px;
+    color: #ffffff;
+    cursor: pointer;
     font-size: 16px;
+    margin-top: 24px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: #202124;
+    border: 2px solid #202124;
+    /*position: absolute;*/
 }
-
 .btn-outline {
+    color: #202124;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 18px;
+    border-radius: 8px;
     padding: 16px 24px;
     border: 1px solid #ccc;
-    font-size: 16px;
-    border-radius: 8px;
-    margin-left: 18px;
     transition: ease-out 0.45s;
 }
-
 .btn-outline:hover {
-    box-shadow: inset 300px 0 0 0 #145AFF;
     color: white;
     transition: ease-out 0.45s;
+    box-shadow: inset 300px 0 0 0 #145AFF;
 }
-
 .content {
     padding: 36px 24px;
 }
 
 .content p {
-    margin: 0 0 20px 0;
+    margin: 0;
 }
-
 #features{
     display: flex;
 }
@@ -130,11 +151,9 @@ p {
     text-align:center;
     padding-bottom:24px;
 }
-
 #post u {
     border-bottom:12px solid #F4E82F;
 }
-
 #post p {
     text-align:center;
 }
@@ -143,32 +162,50 @@ p {
     font-size: 14px;
     font-weight: 700;
 }
-
-.text1 {
-    padding-bottom: 20px;
-}
-
 .text1 h2 {
     font-size: 36px;
 }
-
+.text1 p {
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.09px;
+}
 .card {
     display:flex;
     flex-wrap: wrap;
 }
 .card-list{
     width:400px;
-    height:160px;
+    cursor: pointer;
+    transition: 0.35s;
     margin-right:22px;
-    padding:76px 24px 24px 24px;
     margin-bottom:24px;
-    border :1px solid #ccc;
     border-radius:12px;
+    border :1px solid #ccc;
+    padding:76px 24px 24px 24px;
+}
+.card-list:hover{
+    color:white;
+    background: #202124;
 }
 .card-list h4{
-    font-size: 28px
+    font-size: 20px
 }
 .card-list p{
-    font-size: 21px
+    font-size: 16px
+}
+.rotateRight{
+    transition: 0.9s;
+    cursor: pointer;
+}
+.rotateRight:hover{
+    transform: rotate(10deg);
+}
+.rotateLeft{
+    transition: 0.6s;
+    cursor: pointer;
+}
+.rotateLeft:hover{
+    transform: rotate(-10deg);
 }
 
