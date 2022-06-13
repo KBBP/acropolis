@@ -128,9 +128,15 @@ p {
 }
 #post h2 {
     text-align:center;
+    padding-bottom:24px;
 }
+
 #post u {
     border-bottom:12px solid #F4E82F;
+}
+
+#post p {
+    text-align:center;
 }
 .quote {
     color: #145AFF;
