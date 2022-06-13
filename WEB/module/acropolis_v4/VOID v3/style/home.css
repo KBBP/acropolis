@@ -81,8 +81,11 @@ p{
 }
 .quote{
     color: #145AFF;
+    font-weight:700px
 }
-
+.text1{
+    padding-bottom: 20px;
+}
 .btn-dis{
     color: #fff;
     background-color:#202124;
