@@ -70,7 +70,7 @@ p{
     margin-left:18px;
 }
 .content{
-    padding: 0 42px;
+    padding: 36px 42px;    
 }
 .content p {
     margin:0 0 20px 0;
@@ -78,9 +78,11 @@ p{
 .quote{
     color: #145AFF;
 }
+
 .btn-dis{
     color: #fff;
     background-color:#202124;
     padding: 16px 24px;
 }
+
 
