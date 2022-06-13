@@ -1,46 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,500&display=swap');
 
 * {
-    padding: 0;margin: 0;
-    border: 1px solid black;
-    text-decoration:none;
-    list-style:none;
-    font-family:"Plus Jakarta Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid black;*/
+    text-decoration: none;
+    list-style: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
+
 a {
-    font-size:18px;
+    font-size: 18px;
     color: #202124;
 }
-h2{
-    font-size:52px;
-    margin:14px 0;
+
+h2 {
+    font-size: 52px;
+    margin: 14px 0;
 }
-p{
-    font-size:20px;
-    color:#86898F;
-    margin: 8px;
+
+p {
+    font-size: 20px;
+    color: #86898F;
+    margin: 8px 0;
 }
+
 #container {
-    padding:72px 240px;
+    padding: 36px 240px;
 }
-#navbar{
-    display:flex;
-    justify-content:space-between;
-    margin-bottom:72px;
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
 }
+
 #navbar ul li {
-    display:inline-block;
+    display: inline-block;
     margin: 0 10px;
 }
+
 #navbar ul {
     margin: auto;
 }
+
 #navbar ul li a {
-    color:#67686b;
+    color: #67686b;
+    font-size: 16px;
+    transition: 0.1s;
 }
-.logo{
-    margin:auto 0;
+
+#navbar ul li a:hover {
+    color: #145AFF;
+    transition: 0.1s;
 }
+
+.logo {
+    margin: auto 0;
+}
+
 #hero {
     display: flex;
 }
@@ -48,48 +66,72 @@ p{
 .column {
     flex: 50%;
     padding: 10px;
+    margin: auto 0;
 }
+
 #hero img {
-    width:600px;
-    height:450px;
-    float:right;
+    width: 600px;
+    height: 450px;
+    float: right;
 }
-.cta{
-    margin:64px 0 32px 0
+
+.cta {
+    margin: 64px 0 32px 0
 }
-.btn-fill{
+
+.btn-fill {
+    font-size: 16px;
     background: #145AFF;
-    color:#fff;
-    padding:16px 24px;
-    border-radius:8px;
-}
-.btn-outline{
-    padding:16px 24px;
-    border: 1px solid #ccc;
+    color: #fff;
+    padding: 16px 24px;
     border-radius: 8px;
-    margin-left:18px;
 }
-.btn-outline:hover{
-    box-shadow: inset 300px 0 0 0 #ccc;
-    transition: ease-out 0.5s;
+
+.btn-dis {
+    color: #fff;
+    background-color: #202124;
+    padding: 16px 24px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 24px;
+    font-size: 16px;
 }
-.content{
-    padding: 36px 42px;    
+
+.btn-outline {
+    padding: 16px 24px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-left: 18px;
+    transition: ease-out 0.45s;
 }
+
+.btn-outline:hover {
+    box-shadow: inset 300px 0 0 0 #145AFF;
+    color: white;
+    transition: ease-out 0.45s;
+}
+
+.content {
+    padding: 36px 24px;
+}
+
 .content p {
-    margin:0 0 20px 0;
+    margin: 0 0 20px 0;
 }
-.quote{
+
+.quote {
     color: #145AFF;
-    font-weight:700px
+    font-size: 14px;
+    font-weight: 700;
 }
-.text1{
+
+.text1 {
     padding-bottom: 20px;
 }
-.btn-dis{
-    color: #fff;
-    background-color:#202124;
-    padding: 16px 24px;
+
+.text1 h2 {
+    font-size: 36px;
 }
 
 
