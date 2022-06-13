@@ -120,6 +120,18 @@ p {
     margin: 0 0 20px 0;
 }
 
+#features{
+    display: flex;
+}
+#post{
+    margin: 80px 0;
+}
+#post h2 {
+    text-align:center;
+}
+#post u {
+    border-bottom:12px solid #F4E82F;
+}
 .quote {
     color: #145AFF;
     font-size: 14px;
