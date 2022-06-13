@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,500&display=swap');
+
+* {
+    padding: 0;margin: 0;
+    border: 1px solid black;
+    text-decoration:none;
+    list-style:none;
+    font-family:"Plus Jakarta Sans", sans-serif;
+}
+a {
+    font-size:18px;
+    color: #202124;
+}
+h2{
+    font-size:52px;
+    margin:14px 0;
+}
+p{
+    font-size:20px;
+    color:#86898F;
+    margin: 8px;
+}
+#container {
+    padding:72px 240px;
+}
+#navbar{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:72px;
+}
+#navbar ul li {
+    display:inline-block;
+    margin: 0 10px;
+}
+#navbar ul {
+    margin: auto;
+}
+#navbar ul li a {
+    color:#67686b;
+}
+.logo{
+    margin:auto 0;
+}
+#hero {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+#hero img {
+    width:600px;
+    height:450px;
+    float:right;
+}
+.cta{
+    margin:64px 0 32px 0
+}
+.btn-fill{
+    background: #145AFF;
+    color:#fff;
+    padding:16px 24px;
+    border-radius:8px;
+}
+.btn-outline{
+    padding:16px 24px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left:18px;
+}
+.content{
+    padding: 0 42px;
+}
+.content p {
+    margin:0 0 20px 0;
+}
+.quote{
+    color: #145AFF;
+}
+.btn-dis{
+    color: #fff;
+    background-color:#202124;
+    padding: 16px 24px;
+}
+
