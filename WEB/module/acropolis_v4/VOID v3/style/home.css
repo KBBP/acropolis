@@ -208,4 +208,34 @@ p {
 .rotateLeft:hover{
     transform: rotate(-10deg);
 }
-
+.bottom{
+    padding:72px 0;
+}
+.bottom-content{
+    width:1440px;
+    height:381px;
+    background: #145AFF;
+    padding: 72px 0;
+    border-radius:16px;
+    text-align:center;
+    color: #fff;
+}
+.btn-fill1{
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 16px 24px;
+    background:#202124;
+    margin-right:24px;
+}
+.btn-dis1{
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 16px 24px;
+    border:1px solid #fff
+}
