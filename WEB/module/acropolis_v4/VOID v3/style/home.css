@@ -9,7 +9,7 @@ html {
     padding: 0;
     list-style: none;
     text-decoration: none;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -78,6 +78,7 @@ p {
 
 #hero {
     display: flex;
+    flex-direction:row;
 }
 
 .column {
@@ -85,7 +86,9 @@ p {
     padding: 10px;
     margin: auto 0;
 }
-
+.information{
+    font-size:16px;
+}
 #hero img {
     width: 600px;
     float: right;
@@ -238,4 +241,53 @@ p {
     border-radius: 8px;
     padding: 16px 24px;
     border:1px solid #fff
+}
+
+@media (max-width:800px){
+    #navbar a {
+        display:none;
+    }
+    #navbar{
+        width:300px;
+    }
+    h2 {
+        margin: 12px 0;
+        font-size: 22px;
+    }
+    p {
+        margin: 8px 0;
+        color: #86898F;
+        font-size: 12px;
+    }
+    .btn-fill{
+        width:127px;
+        height:34px
+        font-size:13px;
+        margin:0;
+    }
+    .btn-outline{
+        padding:8px 16px;
+        font-size:13px;
+    }
+    .information{
+        font-size:12px;
+    }
+    #hero{
+        flex-direction:column-reverse;
+        align-item:center;
+        width:300px;
+    }
+    #hero img{
+        width:275px;
+        height:150px;
+        float:left;
+    }
+    .column{
+        text-align:center;
+    }
+    .cta a{
+        display:flex;
+        flex-direction:column;
+    }
+
 }
