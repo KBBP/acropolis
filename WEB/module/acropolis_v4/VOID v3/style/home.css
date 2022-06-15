@@ -10,7 +10,7 @@ html {
     padding: 0;
     list-style: none;
     text-decoration: none;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -179,7 +179,6 @@ p {
 
 #features {
     display: flex;
-    flex-direction:row;
 }
 
 #post {
@@ -327,7 +326,6 @@ p {
 
     p {
         font-size: 13px;
-        text-align:justify;
     }
 
     img {
@@ -360,7 +358,6 @@ p {
     .logo {
         margin: 0 auto;
         font-size: 18px;
-        float:left;
     }
 
     #hero {
@@ -375,7 +372,7 @@ p {
     }
 
     #hero h2, p {
-
+        text-align: center;
     }
 
     #hero p {
@@ -408,8 +405,7 @@ p {
     }
 
     #features {
-        display:flex;
-        flex-direction:column;
+
     }
 
     /*BUTTON PROPERTIES*/
@@ -446,9 +442,5 @@ p {
 
     .back-to-top {
         display: none;
-    }
-    .bottom-content{
-        width:315px;
-
     }
 }
