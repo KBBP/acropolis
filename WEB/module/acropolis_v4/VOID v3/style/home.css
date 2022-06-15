@@ -10,7 +10,7 @@ html {
     padding: 0;
     list-style: none;
     text-decoration: none;
-    /*border: 1px solid black;*/
+    /*border: 0.5px solid black;*/
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -109,7 +109,6 @@ p {
 
 .column {
     flex: 50%;
-    padding: 10px;
     margin: auto 0;
 }
 
@@ -143,8 +142,8 @@ p {
 .btn-dis {
     color: #ffffff;
     cursor: pointer;
-    font-size: 16px;
     margin-top: 24px;
+    font-size: 16px;
     padding: 12px 20px;
     border-radius: 8px;
     background-color: #202124;
@@ -198,9 +197,9 @@ p {
     text-align: center;
 }
 
-.quote {
+.text1 .quote {
     color: #145AFF;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
 }
 
@@ -240,6 +239,8 @@ p {
 }
 
 .card-list p {
+    letter-spacing: 0.0115em;
+    line-height: 24px;
     font-size: 16px
 }
 
@@ -319,127 +320,121 @@ p {
         text-decoration: none;
         font-family: "Plus Jakarta Sans", sans-serif;
     }
-
     h2 {
         font-size: 24px;
     }
-
     p {
         font-size: 13px;
     }
-
     img {
         /*REMOVE THIS WHEN DONE DEBUGGING*/
         /*display: none;*/
         max-height: 135px;
         max-width: 240px;
     }
-
     #container {
-        padding: 32px;
-        max-width: 320px;
+        padding: 24px;
+        /*padding: 32px;*/
+        max-width: 85%;
         /*REMOVE THIS WHEN DONE DEBUGGING*/
         /*background-color: grey;*/
         width: 100%;
     }
-
     #navbar {
 
     }
-
     #navbar .btn-fill {
         display: none;
     }
-
     #navbar ul {
         display: none;
     }
-
     .logo {
         margin: 0 auto;
         font-size: 18px;
     }
-
     #hero {
         display: block;
         margin-top: 64px;
     }
-
     #hero img {
         float: none;
         display: block;
         margin: 0 auto;
     }
-
     #hero h2, p {
         text-align: center;
     }
-
     #hero p {
         font-size: 13px;
         line-height: 20px;
         letter-spacing: 0.3px;
         font-family: 'Inter', sans-serif;
     }
-
-    #hero .btn-fill, .btn-outline {
+    #hero .btn-fill, .btn-outline, .btn-dis {
         font-size: 13px;
         border-radius: 4px;
         padding: 8px 16px;
     }
-
     .information {
         font-size: 12px;
+        color: #cccccc;
         font-family: 'Inter', sans-serif;
     }
-
     .column {
         margin: 0;
         padding: 0;
     }
-
     .cta {
         display: flex;
+        flex-direction: column;
         margin: 24px 0 12px 0;
-        justify-content: space-around;
+        align-items: center;
     }
-
-    #features {
-
-    }
-
-    /*BUTTON PROPERTIES*/
-    .btn-fill {
-        margin: 0;
-    }
-
     .btn-outline {
         margin: 0;
     }
-
-    .btn-dis {
+    .cta .btn-outline {
+        margin-top: 12px;
+    }
+    #features {
+        display: block;
+    }
+    #features div {
 
     }
-
+    .content {
+        padding: 32px 2px;
+        max-width: 100%;
+    }
     /*END OF BUTTON PROPERTIES*/
+    .text1 h2, p {
+        text-align: left;
+    }
     .text1 h2 {
         font-size: 22px;
     }
-
     .text1 p {
         font-size: 13px;
     }
-
+    .text1 .quote {
+        font-size: 12px;
+        letter-spacing: 0.12em;
+        line-height: 12px;
+        text-align: left;
+    }
     .rotateLeft {
-        max-width: 260px;
+        margin: 0 auto;
+        max-width: 79%;
         max-height: 195px;
+        float: none;
     }
-
     .rotateRight {
-        max-width: 260px;
+        margin: 0 auto;
+        max-width: 79%;
         max-height: 195px;
+        float: none;
     }
-
     .back-to-top {
         display: none;
     }
