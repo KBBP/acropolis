@@ -179,6 +179,7 @@ p {
 
 #features {
     display: flex;
+    flex-direction:row;
 }
 
 #post {
@@ -363,7 +364,7 @@ p {
     }
 
     #hero h2, p {
-        text-align: center;
+
     }
 
     #hero p {
@@ -396,7 +397,8 @@ p {
     }
 
     #features {
-
+        display:flex;
+        flex-direction:column;
     }
 
     /*BUTTON PROPERTIES*/
