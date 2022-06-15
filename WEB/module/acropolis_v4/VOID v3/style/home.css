@@ -200,7 +200,7 @@ p {
 
 .quote {
     color: #145AFF;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
 }
 
@@ -243,7 +243,15 @@ p {
     font-size: 16px
 }
 
+.profile {
+    width: 640px;
+    height:480px;
+    background:#D0E5F7;
+    border-radius :24px;
+}
+
 .rotateRight {
+    background: url("../assets/vector2.png") no-repeat;
     transition: 0.9s;
     cursor: pointer;
 }
@@ -253,6 +261,7 @@ p {
 }
 
 .rotateLeft {
+    background: url("../assets/vector1.png") no-repeat;
     transition: 0.6s;
     cursor: pointer;
 }
