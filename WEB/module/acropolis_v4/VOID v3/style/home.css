@@ -14,6 +14,23 @@ html {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    transition: 0.3s;
+}
+
+::-webkit-scrollbar-track {
+    background: #F9F9F9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #145AFF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #202124;
+}
+
 a {
     color: #ffffff;
     font-size: 18px;
