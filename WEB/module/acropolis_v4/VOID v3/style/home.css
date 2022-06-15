@@ -262,17 +262,23 @@ p {
 }
 
 .bottom {
-    padding: 72px 0;
+    border-radius: 16px;
+    background: #145AFF;
 }
 
 .bottom-content {
-    width: 1440px;
-    height: 381px;
-    background: #145AFF;
-    padding: 72px 0;
-    border-radius: 16px;
-    text-align: center;
     color: #fff;
+    width: 1440px;
+    /*padding: 72px 0;*/
+    padding: 52px 0;
+    background: url("../assets/waves.png") no-repeat;
+    text-align: center;
+}
+
+.bottom-content p {
+    size: 14px;
+    color: white;
+    font-family: "Inter", sans-serif;
 }
 
 .btn-fill1 {
@@ -423,5 +429,9 @@ p {
     .rotateRight {
         max-width: 260px;
         max-height: 195px;
+    }
+
+    .back-to-top {
+        display: none;
     }
 }
