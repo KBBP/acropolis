@@ -432,6 +432,7 @@ p {
         max-height: 195px;
         padding:0;
         float: none;
+        background-size:cover;
     }
     .rotateRight {
         margin: 0 auto;
@@ -439,6 +440,7 @@ p {
         max-height: 195px;
         float:none;
         margin:0;
+        background-size:cover;
     }
     .back-to-top {
         display: none;
