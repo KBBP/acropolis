@@ -466,4 +466,9 @@ p {
         padding:12px 18px;
         font-size:12px;
     }
+    .card-list{
+        margin:0;
+        margin-bottom:24px;
+        width:100%;
+    }
 }
