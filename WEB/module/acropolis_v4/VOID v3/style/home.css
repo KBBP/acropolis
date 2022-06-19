@@ -182,7 +182,7 @@ p {
 }
 #features1 {
     margin: 72px 0;
-
+    display:flex;
 }
 #post {
     margin: 80px 0;
