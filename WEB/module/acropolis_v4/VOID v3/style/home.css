@@ -177,13 +177,15 @@ p {
 }
 
 #features {
-    margin: 72px 0;
+    margin: 32px 0;
     display: flex;
 }
+
 #features1 {
-    margin: 72px 0;
-    display:flex;
+    margin: 32px 0;
+    display: flex;
 }
+
 #post {
     margin: 80px 0;
 }
@@ -220,17 +222,22 @@ p {
 .card {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card-list {
     width: 400px;
     cursor: pointer;
     transition: 0.35s;
-    margin-right: 22px;
     margin-bottom: 24px;
     border-radius: 12px;
     border: 1px solid #ccc;
     padding: 76px 24px 24px 24px;
+}
+
+.mg-ibtwn {
+    margin-right: 24px;
+    margin-left: 24px;
 }
 
 .card-list:hover {
@@ -367,7 +374,7 @@ p {
     }
 
     .logo {
-        margin: 0 auto;
+        text-align: left;
         font-size: 18px;
     }
 
@@ -405,14 +412,14 @@ p {
     }
 
     #post h2 {
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 700;
         text-align: left;
-        line-height: 28px;
+        line-height: 32px;
         padding: 6px 0 16px 0;
     }
 
-    #post p{
+    #post p {
         text-align: justify;
         line-height: 20px;
         letter-spacing: 0.0115em;
@@ -470,11 +477,12 @@ p {
         margin: 42px 0;
         display: block;
     }
+
     #features1 {
-        display:flex;
-        flex-direction:column-reverse;
+        display: flex;
+        flex-direction: column-reverse;
     }
-    
+
 
     .content {
         padding: 32px 2px;
@@ -487,7 +495,9 @@ p {
     }
 
     .text1 h2 {
-        font-size: 22px;
+        letter-spacing: 0.0075em;
+        line-height: 30px;
+        font-size: 20px;
     }
 
     .text1 p {
@@ -544,9 +554,10 @@ p {
         padding: 12px 18px;
         font-size: 12px;
     }
-    .card-list{
-        margin:0;
-        margin-bottom:24px;
-        width:100%;
+
+    .card-list {
+        margin: 0;
+        margin-bottom: 24px;
+        width: 100%;
     }
 }
