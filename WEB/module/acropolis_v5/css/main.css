@@ -100,10 +100,7 @@ li:not(:last-child), li:not(:first-child) {
     display: flex;
 }
 .search-btn{
-    padding: 4px;
-    float: right;
     border: none;
-    display: flex;
     font-size: 20px;
     color: #232529;
     margin-right: 12px;
