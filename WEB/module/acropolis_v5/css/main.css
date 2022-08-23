@@ -90,6 +90,10 @@ li:not(:last-child), li:not(:first-child) {
     font-size: 17px;
     margin-right: 16px;
 }
+.arrow button{
+    border: none;
+    background: transparent;
+}
 .gambar{
     display: flex;
     position: absolute;
