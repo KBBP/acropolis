@@ -58,6 +58,7 @@ li:not(:last-child), li:not(:first-child) {
     align-items: center;
     font-size: 20px;
     margin-right: 12px;
+    background: transparent;
 }
 .search-txt{
     font-family: 'Poppins', sans-serif;
@@ -70,8 +71,7 @@ li:not(:last-child), li:not(:first-child) {
     font-size: 18px;
     width: 0px;
 }
-.login{
-}
+
 .search-txt:focus {
     width: 200px;
 }
