@@ -146,22 +146,23 @@ li:not(:last-child), li:not(:first-child) {
 }
 .Slide {
     display: none;
-  }
+}
 
-  #counter-section {
+
+#counter-section {
     display: flex;
     flex-direction: row;
-  }
-  .counters {
+}
+.counters {
     margin-top: 42px;
     display: flex;
-  }
-  .counter-rights {
+}
+.counter-rights {
     margin-right: 24px;
-  }
-  .counter-rights p {
+}
+.counter-rights p {
     font-size: 16px;
-  }
-  .counter-lefts {
+}
+.counter-lefts {
     margin-right: 16px;
-  }
+}
