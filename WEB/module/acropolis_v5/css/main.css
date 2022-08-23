@@ -43,6 +43,7 @@ li:not(:last-child), li:not(:first-child) {
 }
 .gambar{
     display: flex;
+    justify-content: center;
     position: absolute;
     transform: translate(-100%, -50%);
 }
