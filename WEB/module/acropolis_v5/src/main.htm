@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="icon" href="../assets/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <script src="/JS/main.js"></script>
+    <script src="../JS/main.js"></script>
     <title>Dreamland.</title>
 </head>
 <body>
@@ -17,7 +17,7 @@
     <div id="container">
         <div class="header">
             <div class="title">
-                <h1>Dreamland<span style="color: #FF4C4C;"">.</span></h1>
+                <h1 style="font-size: 22px; font-weight: 700;">Dreamland<span style="color: #FF4C4C;"">.</span></h1>
             </div>
                 <ul class="navBar">
                     <li><a href="">Product</a></li>
@@ -39,28 +39,56 @@
         </div>
         <div class="content">
             <div class="left-side">
-                <h1><span>Explore</span> the <br>Beauty of Ind<span>one</span>sia</h1>
-                <p>Discover the beauty of Indonesia coincide with Indonesia independence day,<br>you will feel the unforgettable experience of Indonesia.</p>
+                <h1><span style="font-weight: 500;">Explore</span> the <br>Beauty of Indonesia</h1>
+                <p class="desc">Discover the beauty of Indonesia coincide with Indonesia independence day, you will feel the unforgettable experience of Indonesia.</p>
+                <div id="counter-section">
+                    <div class="counters">
+                        <div class="counter-lefts">
+                            <img src="../assets/foods-svg.svg" alt="Local Traditional Foods">
+                        </div>
+                        <div class="counter-rights">
+                            <h2>5,000+</h6>
+                            <p>Local Traditional Foods</p>
+                        </div>
+                    </div>
+                    <div class="counters">
+                        <div class="counter-lefts">
+                            <img src="../assets/monument-svg.svg" alt="Local Traditional Foods">
+                        </div>
+                        <div class="counter-rights">
+                            <h2>5,000+</h6>
+                            <p>Local Traditional Foods</p>
+                        </div>
+                    </div>
+                    <div class="counters">
+                        <div class="counter-lefts">
+                            <img src="../assets/tourist-svg.svg" alt="Local Traditional Foods">
+                        </div>
+                        <div class="counter-rights">
+                            <h2>5,000+</h6>
+                            <p>Local Traditional Foods</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="right-side">
                 <div class="arrow">
-                    <button class="material-symbols-outlined" onclick="plusSlides(-1)">north</button><br>
-                    <button class="material-symbols-outlined" onclick="plusSlides(1)">south</button>
+                    <button class="material-symbols-outlined" onclick="plusSlides(-1)" style="font-size: 18px;">north</button>
+                    <button class="material-symbols-outlined" onclick="plusSlides(1)" style="font-size: 18px; margin-top: 12px;">south</button>
                 </div>
                 <div class="slideshow">
-                    
                     <!-- Full-width images with number and caption text -->
                     <div class="Slide">
-                        <img src="/assets/GWK.svg" >
+                        <div style="background: url(../assets/GWK.svg) no-repeat; width: 350px; height: 350px;"></div>
                     </div>
                     <div class="Slide">
-                        <img src="/assets/KelingkingBeach.svg" >
+                        <div style="background: url(../assets/KelingkingBeach.svg) no-repeat; width: 350px; height: 350px;"></div>
                     </div>
                     <div class="Slide">
-                        <img src="/assets/Borobudur.svg" >
+                        <div style="background: url(../assets/Borobudur.svg) no-repeat; width: 350px; height: 350px;"></div>
                     </div>
                     <div class="Slide">
-                        <img src="/assets/Bromo.svg" >
+                        <div style="background: url(../assets/Bromo.svg) no-repeat; width: 350px; height: 350px;"></div>
                     </div>
                 </div>
             </div>
