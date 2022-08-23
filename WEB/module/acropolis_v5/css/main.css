@@ -93,3 +93,6 @@ li:not(:last-child), li:not(:first-child) {
     height: 380px; 
     width: 380px;
 }
+.Slide {
+    display: none;
+  }
