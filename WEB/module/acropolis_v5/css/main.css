@@ -41,6 +41,7 @@ li {
 li:not(:last-child), li:not(:first-child) {
     margin: 0 8px;
 }
+/* HEADER */
 .navBar li {
     font-size: 14px;
     font-weight: 500;
@@ -101,3 +102,16 @@ li:not(:last-child), li:not(:first-child) {
 .icon{
     display: none;
 }
+/* CONTENT */
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.Slide img{
+    border-radius: 32px;
+    height: 380px; 
+    width: 380px;
+}
+.Slide {
+    display: none;
+  }
