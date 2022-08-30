@@ -26,3 +26,13 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+
+
+
+
+const icon = document.querySelector(".icon");
+const navBar = document.querySelector(".navBar");
+
+icon.addEventListener("click", function () {
+  navBar.classList.toggle("active");
+});

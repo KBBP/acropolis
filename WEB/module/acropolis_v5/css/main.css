@@ -219,19 +219,72 @@ li:not(:last-child), li:not(:first-child) {
     font-size: 22px;
     margin-bottom: 12px;
 }
+/* Hero */
+.title-hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 72px;
+}
+.title-hero h4{
+    transform: translateX(600px);
+}
+.title-hero span{
+    transform: translateY(5px);
+}
 
 
 @media screen and (max-width: 767px) {
     #container {
-        padding: 0 30px;  
+        padding: 0;  
     }
-    .navBar{
-        display: none;
+    .header .icon{
+        display: block;
+    }
+    .header .navBar{
+        position: absolute;
+        right: 20px;
+        top: -400px;
+        background-color: yellow;
+        width: 250px;
+    }
+    .header .navBar.active{
+        top: 100px;
+    }
+    .header ul{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    .header ul li{
+        margin: 20px 10px 20px 30px;
+    }
+    .icon{
+        visibility: visible;
     }
     .gambar{
         display: none;
     }
-    .icon{
-        visibility: visible;
+    .content{
+        flex-direction: column-reverse;
+    }
+    .right-side{
+        max-width: none;
+        display: inline;
+    }
+    .arrow {
+        display: none;
+    }
+    .left-side h1 {
+        max-width: none;
+        font-size: 20px;
+        text-align: center;
+    }
+    .left-side p{
+        font-size: 14px;
+        text-align: center;
+    }
+    #counter-section{
+        flex-direction: column;
     }
 }
