@@ -89,6 +89,7 @@ li:not(:last-child), li:not(:first-child) {
     margin-top: 8px;
     font-size: 17px;
     margin-right: 16px;
+    transform: translateY(10px);
 }
 .arrow button{
     border: none;
@@ -99,6 +100,9 @@ li:not(:last-child), li:not(:first-child) {
     position: absolute;
     justify-content: center;
     transform: translate(-100%, -50%);
+}
+.gambar a{
+    transform: translateX(10px);
 }
 .search-box{
     display: flex;
@@ -227,11 +231,79 @@ li:not(:last-child), li:not(:first-child) {
     margin-top: 72px;
 }
 .title-hero h4{
-    transform: translateX(600px);
+    transform: translateX(500px);
+    font-size: 24px;
 }
 .title-hero span{
     transform: translateY(5px);
 }
+.choose{
+    display: flex;
+    justify-content: flex-start;
+}
+.choose-text{
+    transform: translateY(20%);
+} 
+.choose p {
+    line-height: 38px;
+    color: #6A707D;
+    letter-spacing: 0.04em;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.post-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 72px;
+    margin-bottom: 52px;
+}
+.post-title h4{
+    transform: translateX(650px);
+    font-size: 24px;
+}
+.post-title span{
+    transform: translateY(5px);
+}
+.location{
+    display: flex;
+}
+.location p{
+    margin-left: 12px;
+}
+.post-content{
+    border: 1px solid #6A707D;
+    height: 320px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    padding: 20px 24px;
+}
+.post-content p {
+    font-size: 15px;
+    text-align: justify;
+}
+.post-content h2{
+    font-size: 32px;
+}
+.post-img img{
+    width: 280px;
+    height:280px;
+    margin-right: 24px;
+}
+.explore{
+    width: 100px;
+    height: 20px;
+}
+.explore span{
+    transform: translateY(6px);
+}
+.card-post{
+    display: flex;
+    gap: 1rem;
+}
+
 
 
 @media screen and (max-width: 767px) {
@@ -267,6 +339,7 @@ li:not(:last-child), li:not(:first-child) {
     }
     .content{
         flex-direction: column-reverse;
+        margin-bottom: 36px;
     }
     .right-side{
         max-width: none;
@@ -280,11 +353,45 @@ li:not(:last-child), li:not(:first-child) {
         font-size: 20px;
         text-align: center;
     }
+    .desc{
+        line-height: 24px;
+        letter-spacing: 0px;
+    }
     .left-side p{
         font-size: 14px;
-        text-align: center;
+        text-align: justify;
     }
     #counter-section{
         flex-direction: column;
     }
+    .discover{
+        visibility: hidden;
+    }
+    .title-hero{
+        margin-top: 36px;
+        display: inline;
+        text-align: center;
+    }
+    .title-hero h4{
+        transform: translateX(0);
+    }
+    .card {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
 }
