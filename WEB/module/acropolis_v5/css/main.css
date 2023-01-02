@@ -116,10 +116,8 @@ li:not(:last-child), li:not(:first-child) {
     background: transparent;
 }
 .search-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-100%,-53%);
+    /* position: absolute; */
+
     height: 40px;
     border-radius: 40px;
     padding: 10px;
@@ -155,6 +153,7 @@ li:not(:last-child), li:not(:first-child) {
     line-height: 40px;
     width: 0px;
 }
+
 .icon{
     visibility: hidden;
 }
@@ -194,7 +193,7 @@ li:not(:last-child), li:not(:first-child) {
     margin-top: 56px;
 }
 .card-container{
-    display: flex;
+    display: inline-flex;
     margin-top: 56px;
     gap: 1.5rem;
 }
@@ -237,6 +236,38 @@ li:not(:last-child), li:not(:first-child) {
 .title-hero span{
     transform: translateY(5px);
 }
+.swiper {
+    width: 80%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 400px;
+    height: 560px;
+    object-fit: cover;
+}
+/* Choose */
 .choose{
     display: flex;
     justify-content: flex-start;
