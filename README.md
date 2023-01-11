@@ -5,6 +5,13 @@ owner of the project is giving the permission to monetize.
 
 ### Creator Info
 - Ikhsan Assidiqie (Mobile Developer)
+  ## BASIC SKILLS
+  - Create a basic web page using react and tailwind.
+  - Create a basic mobile application using Java or Flutter.
+  - Communication.
+  - Teamwork.
+  - Time Management.
+  
 - Dio Irsaputra Siregar (Website Developer)
 
 ### Last Edit
